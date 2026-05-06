@@ -51,26 +51,26 @@ Designed for fast, efficient, and fully offline conversational AI with document 
 ---
 
 ##  Project Structure
-> genai_rag/
-> │
-> ├── install.sh
-> ├── requirements.txt
-> ├── README.md
-> │
-> ├── server/
-> │ ├── init.py
-> │ └── app.py
-> │
-> ├── client/
-> │ ├── index.html
-> │ ├── css/
-> │ │ └── style.css
-> │ └── js/
-> │ └── app.js
-> │
-> ├── public/
-> │ └── favicon.ico
-> │
-> └── docs/
-> │ └── about.txt
-> └──
+genai_rag/  
+│  
+├── install.sh  
+├── requirements.txt  
+├── README.md  
+│  
+├── server/  
+│ ├── init.py  
+│ └── app.py  
+│  
+├── client/  
+│ ├── index.html  
+│ ├── css/  
+│ │ └── style.css  
+│ └── js/  
+│ └── app.js  
+│  
+├── public/  
+│ └── favicon.ico  
+│  
+└── docs/  
+│ └── about.txt  
+└──
