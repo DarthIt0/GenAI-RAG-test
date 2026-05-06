@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+fastembed
+faiss-cpu
+numpy
+ollama
+pydantic
+jinja2
