@@ -29,18 +29,18 @@ Designed for fast, efficient, and fully offline conversational AI with document 
 ---
 
 ##  Installation
-chmod +x install.sh
-./install.sh
+- chmod +x install.sh
+- ./install.sh
 
 ---
 
 ##  Run the App
-source qwen_env/bin/activate
-python -m server.app
+- source qwen_env/bin/activate
+- python -m server.app
 
 
-Open in your browser: 
- http://127.0.0.1:8000
+### Open in your browser: 
+- http://127.0.0.1:8000
 
 ---
 
@@ -51,25 +51,26 @@ Open in your browser:
 ---
 
 ##  Project Structure
-genai_rag/
-│
-├── install.sh
-├── requirements.txt
-├── README.md
-│
-├── server/
-│ ├── init.py
-│ └── app.py
-│
-├── client/
-│ ├── index.html
-│ ├── css/
-│ │ └── style.css
-│ └── js/
-│ └── app.js
-│
-├── public/
-│ └── favicon.ico
-│
-└── docs/
-└── about.txt
+- genai_rag/
+- │
+- ├── install.sh
+- ├── requirements.txt
+- ├── README.md
+- │
+- ├── server/
+- │ ├── init.py
+- │ └── app.py
+- │
+- ├── client/
+- │ ├── index.html
+- │ ├── css/
+- │ │ └── style.css
+- │ └── js/
+- │ └── app.js
+- │
+- ├── public/
+- │ └── favicon.ico
+- │
+- └── docs/
+- │ └── about.txt
+- └──
